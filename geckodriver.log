@@ -86,3 +86,18 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1616678939760	Marionette	INFO	Stopped listening on port 38201
 console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+(firefox:3985): Gtk-WARNING **: 21:31:52.112: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:4049): Gtk-WARNING **: 21:31:52.863: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:4073): Gtk-WARNING **: 21:31:54.020: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616679114777	Marionette	INFO	Listening on port 39701
+1616679114806	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616679114868	Marionette	INFO	Stopped listening on port 39701
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
