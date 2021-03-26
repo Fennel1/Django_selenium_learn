@@ -1251,3 +1251,25 @@ JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: 
 1616750438624	Marionette	INFO	Stopped listening on port 41503
 console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+(firefox:14276): Gtk-WARNING **: 17:32:06.060: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:14343): Gtk-WARNING **: 17:32:06.803: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:14367): Gtk-WARNING **: 17:32:07.912: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751128819	Marionette	INFO	Listening on port 46573
+1616751128869	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:14463): Gtk-WARNING **: 17:32:09.607: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751131061	Marionette	INFO	Stopped listening on port 46573
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.

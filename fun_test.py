@@ -12,7 +12,12 @@ class NewTest(unittest.TestCase):
     def tearDown(self):  # after test
         self.browser.quit()
 
-    def test(self):
+    def check_row_in_list_table(self,  row_text):
+        table = self.browser.find_element_by_id('id_list_table')
+        rows = table.find_elements_by_tag_name('tr')
+        self.assertIn(row_text, [row.text for row in rows])
+
+    def test_main(self):
         self.browser.get('http://localhost:8000')
 
         self.assertIn('To-Do', self.browser.title)
@@ -23,21 +28,31 @@ class NewTest(unittest.TestCase):
         inputbox.send_keys('coding')
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
+        self.check_row_in_list_table('1: coding')
+
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('code success')
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
+
+        self.check_row_in_list_table('1: coding')
+        self.check_row_in_list_table('2: code success')
+
+        # inputbox = self.browser.find_element_by_id('id_new_item')
+        # inputbox.send_keys('coding')
+        # inputbox.send_keys(Keys.ENTER)
+        # time.sleep(1)
+        # inputbox = self.browser.find_element_by_id('id_new_item')
+        # inputbox.send_keys('code success')
+        # inputbox.send_keys(Keys.ENTER)
+        # time.sleep(1)
 
         # self.assertEqual(
         #     inputbox.get_attribute('placeholder'),
         #     'Enter a to-do item'
         # )
 
-        table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_elements_by_tag_name('tr')
 
-        self.assertIn('1: coding', [row.text for row in rows])
-        self.assertIn('2: code success', [row.text for row in rows])
         # f"New to-do item did not appear in table. contents were\n{table.text}"
 
         self.fail('finish')
