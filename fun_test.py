@@ -12,7 +12,7 @@ class NewTest(unittest.TestCase):
     def tearDown(self):  # after test
         self.browser.quit()
 
-    def check_row_in_list_table(self,  row_text):
+    def check_row_in_list_table(self, row_text):
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
         self.assertIn(row_text, [row.text for row in rows])
@@ -28,6 +28,7 @@ class NewTest(unittest.TestCase):
         inputbox.send_keys('coding')
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
+
         self.check_row_in_list_table('1: coding')
 
         inputbox = self.browser.find_element_by_id('id_new_item')
@@ -51,7 +52,6 @@ class NewTest(unittest.TestCase):
         #     inputbox.get_attribute('placeholder'),
         #     'Enter a to-do item'
         # )
-
 
         # f"New to-do item did not appear in table. contents were\n{table.text}"
 

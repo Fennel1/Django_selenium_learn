@@ -1273,3 +1273,203 @@ console.error: services.settings:
 console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
 JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+(firefox:14525): Gtk-WARNING **: 17:33:40.310: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:14588): Gtk-WARNING **: 17:33:41.043: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:14615): Gtk-WARNING **: 17:33:42.139: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751222742	Marionette	INFO	Listening on port 38147
+1616751222806	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:14713): Gtk-WARNING **: 17:33:43.730: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751224986	Marionette	INFO	Stopped listening on port 38147
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+(firefox:14790): Gtk-WARNING **: 17:34:08.267: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:14853): Gtk-WARNING **: 17:34:09.012: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:14877): Gtk-WARNING **: 17:34:10.109: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751250692	Marionette	INFO	Listening on port 37299
+1616751250762	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:14975): Gtk-WARNING **: 17:34:11.663: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751252916	Marionette	INFO	Stopped listening on port 37299
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+(firefox:15023): Gtk-WARNING **: 17:34:34.773: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:15086): Gtk-WARNING **: 17:34:35.504: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:15110): Gtk-WARNING **: 17:34:36.609: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751277548	Marionette	INFO	Listening on port 36555
+1616751277570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:15208): Gtk-WARNING **: 17:34:38.197: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751279744	Marionette	INFO	Stopped listening on port 36555
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+(firefox:15277): Gtk-WARNING **: 17:36:10.077: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:15340): Gtk-WARNING **: 17:36:10.793: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:15365): Gtk-WARNING **: 17:36:11.956: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751372647	Marionette	INFO	Listening on port 46519
+1616751372673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616751372784	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:15464): Gtk-WARNING **: 17:36:13.582: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751374950	Marionette	INFO	Stopped listening on port 46519
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+
+(firefox:15522): Gtk-WARNING **: 17:36:58.320: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:15584): Gtk-WARNING **: 17:36:59.067: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:15608): Gtk-WARNING **: 17:37:00.170: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751420857	Marionette	INFO	Listening on port 41069
+1616751420915	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:15705): Gtk-WARNING **: 17:37:01.754: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751422040	Marionette	INFO	Stopped listening on port 41069
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+(firefox:15761): Gtk-WARNING **: 17:37:30.185: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:15825): Gtk-WARNING **: 17:37:30.915: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:15850): Gtk-WARNING **: 17:37:32.019: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751452604	Marionette	INFO	Listening on port 42405
+1616751452678	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:15948): Gtk-WARNING **: 17:37:33.621: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751454895	Marionette	INFO	Stopped listening on port 42405
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+(firefox:16000): Gtk-WARNING **: 17:37:54.433: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:16065): Gtk-WARNING **: 17:37:55.173: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:16089): Gtk-WARNING **: 17:37:56.332: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751476915	Marionette	INFO	Listening on port 33021
+1616751476939	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:16187): Gtk-WARNING **: 17:37:57.617: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751478077	Marionette	INFO	Stopped listening on port 33021
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+(firefox:16248): Gtk-WARNING **: 17:38:15.546: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:16313): Gtk-WARNING **: 17:38:16.280: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:16337): Gtk-WARNING **: 17:38:17.416: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751498008	Marionette	INFO	Listening on port 35077
+1616751498045	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:16433): Gtk-WARNING **: 17:38:18.966: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751500218	Marionette	INFO	Stopped listening on port 35077
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+(firefox:16546): Gtk-WARNING **: 17:43:46.857: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:16616): Gtk-WARNING **: 17:43:47.594: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:16642): Gtk-WARNING **: 17:43:48.712: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616751829283	Marionette	INFO	Listening on port 33501
+1616751829352	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+
+(/usr/lib/firefox/firefox:16740): Gtk-WARNING **: 17:43:50.239: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616751831513	Marionette	INFO	Stopped listening on port 33501
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(firefox:2580): Gtk-WARNING **: 22:28:28.432: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:2665): Gtk-WARNING **: 22:28:34.653: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:2694): Gtk-WARNING **: 22:28:36.805: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:2758): Gtk-WARNING **: 22:28:38.755: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1616768919180	Marionette	INFO	Listening on port 40913
+1616768919238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1616768921618	Marionette	INFO	Stopped listening on port 40913
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
